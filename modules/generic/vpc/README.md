@@ -1,0 +1,1 @@
+This module creates vpc components such as subnets,Route tables, NAT,IGW,SG's, eip, cloudwatch log groups etc
