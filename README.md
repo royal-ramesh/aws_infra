@@ -106,6 +106,5 @@ Source code is provided only to authorized contributors.
 Unauthorized copying, distribution, modification, or commercial use is prohibited.
 
 ## Contact
-ramesh.guggilam19@gmail.com
 
-For access requests, contribution approvals, or licensing inquiries, contact the repository owner.
+For access requests, contribution approvals, or licensing inquiries, contact the repository owner https://github.com/royal-ramesh or (ramesh.guggilam19@gmail.com)
