@@ -1,77 +1,82 @@
-# Contributing Guidelines
+# Contributing to aws_infra
 
 Thank you for your interest in contributing to this project.
 
-## Getting Started
+## Project Vision
 
-1. Fork the repository (if public) or request collaborator access (if private).
-2. Clone the repository locally.
-3. Create a feature branch from the latest develop branch.
+The goal of this repository is to build a practical reference for enterprise-grade AWS infrastructure using Terraform and DevOps best practices.
 
-Example:
+Contributions are welcome from cloud engineers, DevOps engineers, platform engineers, SREs, and AWS enthusiasts.
 
-git checkout develop
+## How to Contribute
 
-git pull origin develop
+### 1. Fork the Repository
 
-git checkout -b feature/my-feature
+Create your own fork of the repository and clone it locally.
 
-## Development Standards
+### 2. Create a Branch
 
+Use meaningful branch names:
+
+feature/vpc-enhancement
+
+feature/terraform-module
+
+bugfix/subnet-routing
+
+documentation/readme-update
+
+### 3. Follow Best Practices
+
+* Use reusable Terraform modules where possible.
 * Follow Terraform best practices.
-* Use meaningful variable names.
-* Include documentation for all modules.
-* Ensure code passes validation before submission.
-* Avoid committing secrets, passwords, or sensitive information.
+* Avoid hardcoding values.
+* Document all new features.
+* Ensure code is production-ready.
 
-## Commit Message Format
+### 4. Validate Changes
 
-Examples:
+Run:
 
-feat: add aurora cluster module
+terraform fmt
 
-fix: resolve subnet route association issue
+terraform validate
 
-docs: update deployment guide
+terraform plan
 
-refactor: simplify vpc module outputs
+before submitting changes.
 
-## Pull Request Process
+### 5. Submit a Pull Request
 
-1. Push your feature branch.
-2. Create a Pull Request against develop.
-3. Provide a clear description of the changes.
-4. Include testing evidence if applicable.
-5. Wait for review and approval.
+Provide:
 
-## Code Review Requirements
+* Purpose of the change
+* Architecture impact
+* Testing performed
+* Screenshots or diagrams (if applicable)
 
-* At least one maintainer approval is required.
-* All automated checks must pass.
-* Direct pushes to main are prohibited.
+## Contribution Areas
 
-## Branch Strategy
+We welcome contributions in:
 
-main
+* AWS Networking
+* IAM and Security
+* Terraform Modules
+* CI/CD Pipelines
+* Monitoring and Observability
+* AWS Resilience and Disaster Recovery
+* Documentation
+* Cost Optimization
+* AWS Organizations
 
-* Production-ready code.
+## Pull Request Review Process
 
-develop
+All changes are reviewed before merging.
 
-* Integration branch.
+Constructive feedback is encouraged.
 
-feature/*
+## Questions or Suggestions
 
-* New features.
+Open an Issue or start a discussion.
 
-bugfix/*
-
-* Bug fixes.
-
-hotfix/*
-
-* Critical production fixes.
-
-## Contributor Agreement
-
-By submitting a contribution, you agree that your contribution becomes part of this project and may be modified, distributed, or relicensed by the repository owner.
+Thank you for helping make this repository a valuable learning resource for the cloud community.
